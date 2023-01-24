@@ -1,0 +1,100 @@
+.Steps
+{
+    margin-left: auto;
+    margin-top:150px;
+    margin-right: auto;
+    width:80%
+
+}
+.Steps h1
+{
+    text-align: center;
+}
+
+.Steps .wrap .stepelement
+{
+height:100px;
+border-radius: 10px;;
+color:#fff;
+display:block;
+font-size:30px;
+padding:10px;
+font-weight: 900;
+
+
+
+
+}
+.Steps .wrap .stepelement .StepDesc
+{
+font-size:14px;
+font-weight: 300;
+padding-top:10px;
+}
+
+.Steps .wrap .stepelement .StepNum
+{
+font-size:30px;
+
+}
+
+.Steps .wrap  .one
+{
+width:25%;
+background-color: rgba(0,176,240) 
+}
+.Steps .wrap  .two
+{
+    width:40%;
+    background-color: #90c652;
+
+}
+.Steps .wrap  .three
+{
+    width:55%;
+    background-color: rgba(0,176,240) 
+
+}
+.Steps .wrap  .four
+{
+    width:70%;
+    background-color: #90c652;
+
+}
+.Steps .wrap  .five
+{
+    width:85%;
+    background-color: rgba(0,176,240) 
+
+}
+.Steps .wrap  .six
+{
+    width:100%;
+    background-color: #90c652;
+    color:white;
+
+}
+
+.Steps .wrap .stepelement .StepDesc
+{
+    display: 1;
+}
+
+.Steps .wrap .stepelement:hover + .Steps .wrap .stepelement .StepDesc
+{
+    
+display: none;
+}
+
+
+
+
+@media (max-width:750px)
+{
+    .Steps .wrap .stepelement
+{
+    font-size:20px;
+    width:100%;
+}
+
+}

@@ -1,0 +1,87 @@
+.GetPrice
+{
+    background: linear-gradient(63deg, rgba(0,66,91,1) 7%, rgba(0,66,91,1) 15%, rgba(0,103,141,1) 35%, rgba(0,176,240,1) 67%, rgba(0,176,240,1) 81%, rgba(0,176,240,1) 82%, rgba(0,176,240,1) 91%);
+    width:100%;
+    padding-bottom: 40px;;
+   
+}
+.GetPrice h1{
+    text-align: center;
+    color:#fff;
+    padding:30px;
+    font-size: 40px;
+}
+.GetPrice .wrap 
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+    background-color: #fff;
+    padding:40px;
+    margin-bottom:40px;
+    text-align: center;
+}
+
+.GetPrice .wrap input
+{
+width:40%;
+height:40px;
+border:1px solid rgba(0,66,91,1);
+padding:5px;
+font-size:16px;
+    
+}
+.GetPrice .wrap input:first-child
+{
+margin-right:10px;
+}
+.GetPrice .wrap .agree input
+{
+width:30px;
+
+}
+.GetPrice .wrap .agree
+{
+text-align: left;
+padding-left:0;
+}
+.GetPrice .wrap  .agree p 
+{
+    display: inline;
+    color:rgba(0,66,91,1)
+}
+
+.GetPrice .wrap button
+{
+margin-top:30px;
+width:100%;
+padding:20px;
+font-size:30px;
+border:none;
+background-color: #90c652;
+border: rgba(0,176,240) solid 2px;
+transition: 0.2s ;
+color:#fff
+
+
+}
+.GetPrice .wrap button:hover
+{
+background-color: rgba(0,176,240);
+cursor: pointer;
+}
+
+
+@media (max-width:750px) {
+    .GetPrice h1{
+padding:1px;
+    }
+    
+    .GetPrice .wrap 
+    {
+width:100%;
+padding-left:0;
+padding-right: 0;
+padding-top:60px;
+    }
+}

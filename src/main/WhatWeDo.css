@@ -1,0 +1,164 @@
+.WhatWeDo
+{
+    width:100%;
+    min-height: 150px;
+    background-color: #f8f8f8;
+}
+.WhatWeDo h4{
+font-size:30px;
+text-align: center;
+}
+
+.WhatWeDo h1{
+    font-size:40px;
+    text-align: center;
+   color: #90c652
+}
+.WhatWeDo .elements
+{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top:15%;
+
+}
+
+.WhatWeDo .elements .oneElement
+{
+width:30%;
+min-height:250px;
+margin-bottom:15%;
+background-color: white;
+box-shadow: 2px 3px 4px 5px #888888;
+transition: 0.3s;
+}
+.WhatWeDo .elements .oneElement:hover{
+    transform: translateY(-10px);
+}
+.WhatWeDo .elements .oneElement .Circle
+{
+border-radius: 50%;
+width:200px;
+height: 200px;
+position:relative;
+top:-17%;
+z-index:200;
+margin-left:auto;
+margin-right: auto;
+
+}
+.WhatWeDo .elements .oneElement .Description
+{
+  width:100%;
+  height:100%;
+    
+   
+    
+}
+
+.WhatWeDo .elements .oneElement .one
+{
+background-image: url(../images/Main/circle_1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+.WhatWeDo .elements .oneElement .two
+{
+    background-image: url(../images/Main/circle_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.WhatWeDo .elements .oneElement .three
+{
+    background-image: url(../images/Main/circle_5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.WhatWeDo .elements .oneElement .four
+{
+    background-image: url(../images/Main/circle_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.WhatWeDo .elements .oneElement .five
+{
+    background-image: url(../images/Main/circle_4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.WhatWeDo .elements .oneElement .six
+{
+    background-image: url(../images/Main/circle_6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.WhatWeDo .elements .oneElement .Description p
+{
+    padding:20px;
+    min-height:100px;
+}
+
+.WhatWeDo .elements .oneElement .Description a
+{
+    display: block;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    background-color:#90c652;
+    padding:30px;
+    border : rgba(0,176,240) 2px solid;
+    margin-bottom: 20px;;
+    border-radius: 2px;
+    color:#fff;
+    font-weight: 900;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.WhatWeDo .elements .oneElement .Description a:hover{
+
+    background-color: rgba(0,176,240);
+    cursor: pointer;
+    transform: translateX(10px);
+
+}
+
+
+@media(max-width: 750px)
+{
+    .WhatWeDo .elements .oneElement
+{
+    width:90%;
+    border-radius: 4px;
+
+
+}
+
+.WhatWeDo .elements
+{
+flex-flow: column;
+align-items: center;
+}
+
+.WhatWeDo .elements .oneElement .Circle
+{
+    margin-left:auto;
+    margin-right: auto;
+top:-60%;
+}
+
+}

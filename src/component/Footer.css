@@ -1,0 +1,83 @@
+.footer
+{
+    background-color: #90c652;
+    width:100%;
+    min-height:250px;
+   color:#fff
+
+}
+
+.firstLineFooter{
+    display: flex;
+
+    flex:auto;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.firstLineFooter .FLFElement{
+padding:50px;
+padding-right:150px;
+padding-left:30px;
+border-right:1px solid rgb(250, 248, 248);
+font-size:20px;
+
+
+}
+.firstLineFooter .FLFElement:last-child
+{border-right: none;
+}
+
+.firstLineFooter .FLFElement ul, .firstLineFooter .FLFElement a{
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    list-style-type: none;
+    text-transform:uppercase;
+    padding:1px;
+    line-height: 50px;
+    border-radius: 10px;
+    transition: 0.4s;
+    display: block;
+
+    
+}
+.firstLineFooter .FLFElement ul li a:hover
+{
+background-color:rgba(0,176,240,1) ;
+cursor: pointer;
+transform: translateX(20px);
+}
+
+
+.SecondLineFooter
+{
+    margin-top:20px;
+    text-align: center;
+    padding:40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.SecondLineFooter a
+{
+    margin-left:10%;
+    margin-right: 10%;
+    text-decoration: none;
+    color:#fff !important;
+}
+
+
+
+@media (max-width: 750px) {
+    .firstLineFooter{
+
+flex-flow:column    }
+    .firstLineFooter .FLFElement{
+width: 100%;
+
+    }
+
+
+
+}

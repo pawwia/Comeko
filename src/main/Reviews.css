@@ -1,0 +1,41 @@
+.Reviews
+{
+margin-left:auto;
+margin-right:auto;
+width:60%;
+margin-top:100px;
+margin-bottom: 100px;
+
+}
+.Reviews h1
+{
+text-align: center;
+display: block;
+padding:50px;
+}
+
+.Reviews .oneReviewWrap
+{
+
+
+}
+.Reviews .oneReviewWrap .stars
+{
+text-align: center;
+margin-bottom:40px;
+}
+.Reviews .oneReviewWrap .stars svg
+{
+    color: #FDE08D
+}
+.Reviews .oneReviewWrap .rev
+{
+    font-size:20px;
+    min-height: 170px;
+    padding:30px;
+}
+.Reviews .oneReviewWrap .per
+{
+    text-align: right;
+    font-weight: bold;
+}
