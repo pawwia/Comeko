@@ -1,0 +1,21 @@
+.Knowledge
+{
+    width:100%;
+    min-height:100%;
+
+}
+
+.karuzelka
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+}
+
+@media (max-width:750px)
+{
+    .karuzelka   
+     {
+        width:90%;
+    }
+}

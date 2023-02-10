@@ -12,14 +12,17 @@ const Navi = () => {
     return ( 
         <>
         <div className='Nav'>
-<img src={logo} alt="logo"/>
+<Link className="img" to="/" ><img src={logo} alt="logo"/></Link>
 <div className='navBut'>
-<Link to='/o-nas'>o nas</Link>
+
+<Link to='/o-nas'>O nas</Link>
+
 <Link to='/uslugi'>Usługi</Link>
-<Link to='/portfolio'>Portfolio</Link>
-<Link to='/blog'>Blog</Link>
+<Link to='/portfolio'>Realizacje</Link>
+<Link to='/wiedza'>Wiedza</Link>
 <Link to='/finansowanie'>Finansowanie</Link>
 <Link to='/kontakt'>Kontakt</Link>
+
 </div>
 
 </div>
@@ -27,10 +30,12 @@ const Navi = () => {
 <div className='openMenuPhone' onClick={()=>setPhoneMenu(1)}><FontAwesomeIcon icon={faBars} size="3x" inverse/></div>
 {phoneMenu?<div className='phoneMenu'>
     <div className="bar" onClick={()=>setPhoneMenu(0)}><FontAwesomeIcon size="3x" inverse icon={faX}/></div>
-<Link to='/o-nas'>o nas</Link>
+    <Link to='/'>Start</Link>
+
+<Link to='/o-nas'>O nas</Link>
 <Link to='/uslugi'>Usługi</Link>
 <Link to='/portfolio'>Portfolio</Link>
-<Link to='/blog'>Blog</Link>
+<Link to='/wiedza'>Wiedza</Link>
 <Link to='/finansowanie'>Finansowanie</Link>
 <Link to='/kontakt'>Kontakt</Link>
 </div>:null}

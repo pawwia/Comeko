@@ -1,0 +1,134 @@
+.Services .wrap
+{
+
+    display: flex;
+    justify-content: space-around;
+    gap:60px;
+    flex-grow: 1;
+}
+.Services  h1
+{
+color:#90c652;
+text-align: center;
+
+}
+.Services
+{
+    background-color: #F8F8F8;
+
+    
+}
+.Services p, .Services h4
+{
+    padding-left:20px;
+}
+
+.Services .wrap .element 
+{
+display: flex;
+height:300px;
+background-color: #fff;
+border-radius: 10px;
+margin:40px;
+padding-left:0px;
+width:30%;
+
+perspective:1000px;
+
+}
+.Services .wrap .element .ElementInner
+{
+    position: relative;
+    width:100%;
+    height:100%;
+    transition: transform 0.8s;
+transform-style: preserve-3d;
+
+}
+
+.Services .wrap .element:hover .ElementInner{
+    transform: rotateY(180deg);
+}
+
+.Services .wrap .element .ElementInner .FirstSide, .Services .wrap .element .ElementInner .SecondSide
+{
+    position: absolute;
+    width:100%;
+    height:100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+.Services .wrap .element  .ElementInner .SecondSide
+{
+    transform: rotateY(180deg);
+}
+
+.Services .wrap .element .ElementInner .FirstSide
+{
+    display: flex;
+
+
+}
+.Services .wrap .element .ElementInner .FirstSide .left
+{
+    width:50%;
+}
+.Services .wrap .element .ElementInner .FirstSide .left h4, .Services .wrap .element  .SecondSide  h4
+{
+    color:#90c652;
+    font-size:25px
+    
+}
+.Services .wrap .element .ElementInner .SecondSide  a
+{
+    display: block;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    text-decoration: none;
+    color:#90c652;
+    font-size:18px;
+}
+
+.Services .wrap .element  .ElementInner .FirstSide .right
+{
+    width:50%;
+    height:100%;
+    padding:0;
+}
+
+.Services .wrap .element .ElementInner .FirstSide .right img
+{padding-top:40px;
+    width:100%;
+    height:80%;
+}
+
+.Services .wrap .element .ElementInner .FirstSide .right .woj
+{
+    border-radius: 40%;
+}
+
+
+
+@media (max-width:750px)
+{
+
+    .Services .wrap
+{
+    justify-content:center;
+    flex-flow: column;
+
+    flex-direction:column;
+    
+}
+
+.Services .wrap .element 
+{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}

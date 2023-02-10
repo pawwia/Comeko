@@ -1,0 +1,63 @@
+.Articles .contentArt .ContentAllArt
+{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Articles .contentArt h2{
+    text-align: center;
+    font-size:30px;
+}
+.Articles .contentArt .ContentAllArt .ContentLeft
+{
+padding:20px;
+width:50%
+}
+
+.Articles .contentArt .ContentAllArt .ContentRight
+{
+    
+    width: 50%;
+}
+.Articles .contentArt .ContentAllArt .ContentRight img
+{
+    display: block;
+    border-radius:20px ;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top:50px;
+   margin-left:60px;
+   width:100%;
+    
+}
+
+
+.knowMore 
+{
+    padding-top:10% !important;
+    padding-left:10% !important;
+    font-size:18px;
+    font-weight: 700;
+}
+
+@media (max-width:750px)
+{
+    .Articles .contentArt .ContentAllArt
+{
+    justify-content: center;
+    flex-flow: column;
+
+}
+.Articles .contentArt .ContentAllArt .ContentLeft
+{
+    width:100%;
+}
+.Articles .contentArt .ContentAllArt .ContentRight
+{
+    width:100%;
+}
+}

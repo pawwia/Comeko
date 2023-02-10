@@ -1,0 +1,64 @@
+.AboutLeftRight
+{
+    display: flex;
+    justify-content: center;
+}
+
+.AboutLeftRight .left{
+width:50%;
+padding:40px;
+}
+
+.AboutLeftRight .left p
+{
+    padding:20px;
+    font-size:20px;
+}
+
+.AboutLeftRight .right{
+width:30%;
+    
+}
+
+.About .imageAbout
+{
+    width:50%;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 80%;
+    min-height:400px;
+    background-image: url('../../images/Main/about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media (max-width:750px)
+{
+
+    .AboutLeftRight .left{
+        
+width: 100%;
+padding:0;
+    }
+
+    .AboutLeftRight .right{
+        
+        width: 100%;
+            }
+        
+
+            .About .imageAbout
+{
+    width:100%;
+    border-radius: 50%;
+}
+
+.AboutLeftRight
+{
+    flex-flow: column;
+}
+
+
+}

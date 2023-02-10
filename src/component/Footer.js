@@ -27,10 +27,10 @@ Kapitał zakładowy: 285 000 zł<br/>
 <div className='FLFElement'>
     <h2> Mapa strony</h2>
 <ul>
-<li><Link to='/o-nas'>o nas</Link></li>
+<li><Link to='/o-nas'>O nas</Link></li>
 <li><Link to='/uslugi'>Usługi</Link></li>
 <li><Link to='/portfolio'>Portfolio</Link></li>
-<li><Link to='/blog'>Blog</Link></li>
+<li><Link to='/wiedza'>Wiedza</Link></li>
 <li><Link to='/finansowanie'>Finansowanie</Link></li>
 <li><Link to='/kontakt'>Kontakt</Link></li>
 

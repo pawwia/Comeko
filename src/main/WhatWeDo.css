@@ -113,13 +113,13 @@ background-size: cover;
 .WhatWeDo .elements .oneElement .Description a
 {
     display: block;
-    width:80%;
+    width:60%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     text-decoration: none;
     background-color:#90c652;
-    padding:30px;
+    padding:20px;
     border : rgba(0,176,240) 2px solid;
     margin-bottom: 20px;;
     border-radius: 2px;
