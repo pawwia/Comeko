@@ -10,9 +10,10 @@ text-align: center;
 }
 
 .WhatWeDo h1{
-    font-size:40px;
+    font-size:35px;
     text-align: center;
-   color: #90c652
+   color: #90c652;
+   min-height: 100px;
 }
 .WhatWeDo .elements
 {

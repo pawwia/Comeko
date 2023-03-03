@@ -1,0 +1,18 @@
+.Fotowoltaika .pveelement .container .pvTo .GwRight {
+background-image: url(../../../images/Pompy/pompa5.jpeg) ;
+}
+
+
+#pc1{
+    background-image: url('../../../images/Pompy/pompa1.jpeg');
+    background-position-x:-100%;
+    }
+    #pc2{
+        background-image: url('../../../images/Pompy/pompa3.jpeg');
+        }
+    #pc3{
+            background-image: url('../../../images//Portfolio/003.webp');
+            }
+    #pc4{
+                background-image: url('../../../images//Portfolio/004.webp');
+                }

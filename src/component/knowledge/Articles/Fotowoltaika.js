@@ -8,7 +8,11 @@ import { faLightbulb, faBolt, faPiggyBank, faMoneyBillTrendUp,faFaceSmile } from
 import corab from '../../../images/knowledge/corabp.png';
 import Steps from '../../../main/Steps';
 const Fotowoltaika = () => {
+    useEffect(()=>{
+        window.scrollTo(0, 0)
     
+    
+    },[])
 
 
 

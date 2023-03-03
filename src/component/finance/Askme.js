@@ -171,7 +171,7 @@ step===2?
     <li>Występowanie zacienienia </li>
 </ul>
 <li>Zużycie roczne prądu lub kwota rachunku miesięcznego za prąd</li>
-<li> Jeśli znasz- moc planowanej instalacji</li>
+<li> Moc przyłączeniowa </li>
 <li> Im więcej szczegółów podasz - tym dokładniejsza wycena będzie</li>
 </ul>
 </div>:null}

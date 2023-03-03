@@ -16,7 +16,7 @@ import 'aos/dist/aos.css';
 
             
 
-const Finance = () => {
+const Finance = (props) => {
     useEffect(()=>{
 
         window.scrollTo(0, 0)
@@ -24,6 +24,8 @@ const Finance = () => {
     },[])
     useEffect(()=>{
         AOS.init();
+        document.title=props.title
+
     
     
     },[])
@@ -49,7 +51,7 @@ const Finance = () => {
 </div>
 {who===1?<div data-aos="fade-right" className="FinanceMenu"><a href="#wlasne" >Środki własne</a><a href="#kredyt" >Kredyt</a> <a href="#dotacje" >Dotacje</a>
 <a href="#zachety" >Ulga podatkowa</a></div>:
-<div  data-aos="fade-right" className="FinanceMenu"><a href="#wlasne" >Środki własne</a><a href="#kredyt" >Kredyt</a><a href="#leasing" >Leasing</a> <a href="#dotacje" >Dotacje</a>
+<div  data-aos="fade-right" className="FinanceMenu"><a href="#wlasne" >Środki własne</a><a href="#leasing" >Leasing</a> <a href="#dotacje" >Dotacje</a>
 </div>}
 
 {who===1?<div><div data-aos="fade-right" className='oneOption' id="wlasne">
@@ -157,16 +159,6 @@ const Finance = () => {
 
 
 
-<div className='oneOption' data-aos="fade-right" id="kredyt">
-    <h1> Kredyt</h1>
-<div className='Avability'>
-
-</div>
-<div className='Contain'>
-
-</div>
-
-</div>
 
 
 

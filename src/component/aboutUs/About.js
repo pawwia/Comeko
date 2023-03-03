@@ -9,12 +9,14 @@ import 'aos/dist/aos.css';
 
 
 
-const About = () => {
+const About = (props) => {
 
             
 useEffect(()=>{
     AOS.init();
     window.scrollTo(0, 0)
+    document.title=props.title
+
 
 
 },[])
@@ -27,14 +29,15 @@ useEffect(()=>{
 <div className='left'>
 
     <h1 data-aos="fade-right"> O nas</h1>
+    <p data-aos="fade-right">Firma ComEko powstała z myślą zapewnienia Klientom najwyższej jakości usług związanych z energią odnawialną. Naszą misją jest, aby każdy mógł zarabiać – oszczędzając.</p>
 
-   <p data-aos="fade-right"> Jesteśmy lokalną firmą zajmującą się instalacjami fotowoltaicznymi. Nasza działalność rozpoczęła się w 2017 roku i od tego czasu wykonaliśmy wiele udanych projektów. Specjalizujemy się w montażu paneli słonecznych na terenie województwa zachodniopomorskiego i lubuskiego.</p>
 
-   <p data-aos="fade-right">Nasze biuro znajduje się w Szczecinie i tam też pracuje nasz zespół wykwalifikowanych specjalistów, którzy zapewniają najwyższą jakość usług. Dzięki naszemu doświadczeniu i wiedzy, jesteśmy w stanie zapewnić naszym klientom nie tylko efektywne i trwałe rozwiązania, ale także doradztwo i wsparcie na każdym etapie projektu.</p>
+   <p data-aos="fade-right"> Comeko to firma, która zajmuje się montażem instalacji fotowoltaicznych, pompami ciepła, magazynami energii oraz ładowarkami do samochodów elektrycznych. Dzięki temu, klienci mogą zainwestować w odnawialne źródła energii i cieszyć się niezależnym źródłem energii, co przekłada się na oszczędności na rachunkach za prąd oraz na niższe koszty ogrzewania.</p>
 
-   <p data-aos="fade-right">Naszym celem jest zapewnienie naszym klientom dostępu do niezawodnej i ekologicznej energii słonecznej. Dlatego też, zawsze dążymy do doskonałości w każdym aspekcie naszej działalności, od projektowania do montażu i serwisu.</p>
+   <p data-aos="fade-right">Firma oferuje swoje usługi zarówno klientom indywidualnym, jak i firmom, które chcą zainwestować w przyszłość i zrezygnować z tradycyjnych źródeł energii. Zespół fachowców firmy Comeko zajmuje się montażem instalacji fotowoltaicznych, które pozwalają na pozyskiwanie energii elektrycznej z promieniowania słonecznego. Dzięki temu, klienci mogą korzystać z niezależnego źródła energii, co przekłada się na oszczędności na rachunkach za prąd.</p>
 
-   <p data-aos="fade-right">Zaufaj nam i pozwól nam pomóc Ci wyprodukować własną, czystą i taną energię słoneczną.</p>
+   <p data-aos="fade-right">Zlecając montaż instalacji fotowoltaicznych, pomp ciepła, magazynów energii oraz ładowarek do samochodów elektrycznych w firmie Comeko, klienci inwestują w przyszłość oraz w ochronę środowiska. Dzięki tym rozwiązaniom, mogą oszczędzać na rachunkach za prąd oraz ogrzewanie, a jednocześnie przyczyniać się do zmniejszenia emisji szkodliwych gazów.</p>
+
 </div>
 <div className='right'>
 <Askme/>

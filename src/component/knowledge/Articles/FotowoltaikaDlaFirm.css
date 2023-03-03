@@ -1,0 +1,240 @@
+.Fotowoltaika .pvWrap 
+{
+width:100%;
+}
+#pvzdj1{
+    background-image: url('../../../images//Portfolio/044.webp');
+    }
+    #pvzdj2{
+        background-image: url('../../../images//Portfolio/069.webp');
+        background-position-y:0;
+        }
+    #pvzdj3{
+            background-image: url('../../../images//Portfolio/047.webp');
+            background-position-y: bottom;
+            }
+    #pvzdj4{
+                background-image: url('../../../images//Portfolio/061.webp');
+                background-position-y: 65%;
+                }
+
+
+
+
+                #pvzdj1:hover{
+                    transform: translate(30% ,30%);
+
+                }
+                #pvzdj2:hover{
+                    transform: translate(-30%, 30%);
+
+                }
+
+                #pvzdj3:hover{
+                    transform: translate(30%,-30%);
+
+                }
+
+                #pvzdj4:hover{
+                    transform: translate(-30%,-30%);
+
+                }
+
+
+
+
+ .naviHori .imagesContainer
+{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    height:40vh;
+    gap:20px
+}
+ .naviHori .imagesContainer .oneImage
+{
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 10px;
+width:45%;
+transition:0.3s
+}
+.naviHori .imagesContainer .oneImage:hover
+{
+transition-delay:1s;
+
+}
+.Fotowoltaika .pveelement
+{
+width:70vw;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+.Fotowoltaika  .pveelement
+{
+    width:100%;
+    min-height:500px;
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    margin-top:20px;
+
+}
+
+.Fotowoltaika  .pveelement .container .pvTo
+{
+display: flex;
+flex-flow: row;
+justify-content: center;
+}
+
+.Fotowoltaika  .pveelement .container .pvTo .left, .Fotowoltaika  .pveelement .container .pvTo .right
+{
+    width:40%;
+}
+.Fotowoltaika  .pveelement .container .pvTo .right
+{
+    margin-left:40px;
+}
+.Fotowoltaika  .pveelement .container .pvTo .left .Element, .Fotowoltaika  .pveelement .container .pvTo .right .Element
+{
+    min-height:100px;
+    display: flex;
+}
+.Fotowoltaika  .pveelement .container .pvTo .left .Element .ElLeft , .Fotowoltaika  .pveelement .container .pvTo .right .Element .ElLeft
+{
+    width:50px;
+    height:100%;
+    padding:20px;
+    text-align: center;
+    line-height: 100px;;
+
+}
+.Fotowoltaika  .pveelement .container .pvTo .left .Element .ElLeft svg , .Fotowoltaika  .pveelement .container .pvTo .right .Element .ElLeft svg
+{
+    color:#90c652;
+}
+
+.Fotowoltaika  .pveelement .container .pvTo .GwLeft
+{
+width:50%;
+height:100%;
+min-height: 150px;
+padding:50px;
+padding-top:15px;
+}
+.Fotowoltaika  .pveelement .container .pvTo .GwLeft h3
+{
+    font-size:35px;
+    text-align: center;
+}
+
+.Fotowoltaika  .pveelement .container .pvTo .GwLeft .GwBut
+{
+margin-left: auto;
+margin-right: auto;
+width:50%;
+line-height: 70px;
+height:70px;
+margin-bottom: 5px;
+text-align: center;
+border-radius: 10px;
+color:white;
+font-size:22px;
+background-color: #90c652;
+border:rgb
+
+}
+
+.Fotowoltaika  .pveelement .container .pvTo .GwRight
+{
+    
+    width:50%;
+    min-height: 550px;
+    height:100%;
+    border-radius: 10px;
+    background-image:url('../../../images/Portfolio/053.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.naviHori .textContainer p, .naviHori .textContainer ul li 
+{
+    word-wrap: break-all;
+    white-space: normal;
+}
+
+.naviHori .textContainer h2
+{
+    font-size:35px;
+    color:#90c652;
+    text-align: center;
+    transition: 0.5s;
+}
+.naviHori .textContainer h2:hover{
+
+}
+
+.Fotowoltaika  .pveelement  .ourEqu
+{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+}
+.Fotowoltaika  .pveelement  .ourEqu h3
+{
+text-align: center;
+font-size:30px;
+}
+
+.Fotowoltaika  .pveelement  .ourEqu img
+{
+    display: block;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Fotowoltaika  .pveelement  .ourEqu p
+{
+    font-size:20px;
+}
+
+@media (max-width:750px)
+{
+
+    .Fotowoltaika  .pveelement .container .pvTo
+{
+flex-flow:column;
+}
+.Fotowoltaika  .pveelement .container .pvTo .left, .Fotowoltaika  .pveelement .container .pvTo .right
+{
+    width:100%;
+    margin-left:0;
+}
+
+.Fotowoltaika  .pveelement .container .pvTo .GwLeft .GwBut
+{
+    width:100%;
+}
+.Fotowoltaika  .pveelement .container .pvTo .GwLeft
+{
+    width:90%;
+    padding:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Fotowoltaika  .pveelement .container .pvTo .GwRight
+{
+    width: 100%;
+    background-size: cover;
+    height:auto;
+}
+.Fotowoltaika  .pveelement  .ourEqu
+{width: 90%;}
+}

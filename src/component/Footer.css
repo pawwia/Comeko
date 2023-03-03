@@ -18,9 +18,10 @@
 .firstLineFooter .FLFElement{
 padding:50px;
 padding-right:150px;
+padding-top:20px;
 padding-left:30px;
 border-right:1px solid rgb(250, 248, 248);
-font-size:20px;
+font-size:16px;
 
 
 }
@@ -31,11 +32,11 @@ font-size:20px;
 .firstLineFooter .FLFElement ul, .firstLineFooter .FLFElement a{
     color:white;
     text-decoration: none;
-    font-size:20px;
+    font-size:16px;
     list-style-type: none;
     text-transform:uppercase;
     padding:1px;
-    line-height: 50px;
+    line-height: 30px;
     border-radius: 10px;
     transition: 0.4s;
     display: block;
@@ -57,12 +58,15 @@ transform: translateX(20px);
     padding:40px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-left:10%;
+    padding-right: 10%;;
     
 }
 .SecondLineFooter a
 {
-    margin-left:10%;
-    margin-right: 10%;
+  text-align: center;
     text-decoration: none;
     color:#fff !important;
 }

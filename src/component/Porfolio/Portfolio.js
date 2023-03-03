@@ -5,17 +5,34 @@ import { LazyLoadImage, trackWindowScroll } from 'react-lazy-load-image-componen
 import './Portfolio.css';
 
 import Navi from '../Navi';
-const Portfolio = (scrollPosition) => {
+const Portfolio = (props,scrollPosition) => {
     useEffect(()=>{
 
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
+        document.title=props.title
+
     
     },[])
     const galleryImages = [];
-       
-    for (let i = 1; i <= 178; i++) {
+    let name="";
+
+    for (let i = 1; i <= 124; i++) {
+        if( i<10)
+        {
+            name='00'+i;
+
+        }
+        else if ( i>=10&&i<100)
+        {
+            name='0'+i
+        }
+        else if(i>=100)
+        {
+            name=i;
+        }
         galleryImages.push({
-        img: require(`../../images/Portfolio/0 (${i}).webp`),
+            
+        img: require(`../../images/Portfolio/${name}.webp`),
         alt: `Portfolio zdjęcie ${i}`,
       });
     }

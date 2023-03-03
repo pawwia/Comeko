@@ -19,7 +19,7 @@ const sendForm=async(url,data)=>{
     }
 
 
-const Contact = () => {
+const Contact = (props) => {
 
     const[name,setName]=useState("");
     const[email,setEmail]=useState("");
@@ -32,7 +32,8 @@ const Contact = () => {
 
 useEffect(()=>{
 
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    document.title=props.title
 
 },[])
 const handleEmail=()=>{

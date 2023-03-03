@@ -1,10 +1,15 @@
 import './Articles.css'
-import React from 'react';
+import React,{useEffect} from 'react';
 import Navi from '../../Navi';
 import GetPrice from '../../../main/GetPrice';
 import Askme from '../../finance/Askme';
 import { Link } from 'react-router-dom';
 const Articles = (props) => {
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    document.title=props.title;
+    
+    },[])
     return ( 
         <div className='Articles'>
 <Navi/>

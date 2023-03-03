@@ -11,7 +11,7 @@ const Header = () => {
 <Navi/>
 <div className='headerInfo'>
     <h1>Witaj w COMEKO!</h1>
-    <h3> Z nami zaoszczędzisz na rachunkach za prąd! </h3>
+    <h3> Z nami zaoszczędzisz na rachunkach. </h3>
     <Link to='/kontakt'>Skontaktuj się z nami! </Link>
 </div>
 

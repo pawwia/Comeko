@@ -27,6 +27,8 @@ Kapitał zakładowy: 285 000 zł<br/>
 <div className='FLFElement'>
     <h2> Mapa strony</h2>
 <ul>
+<li><Link to='/'>Strona główna</Link></li>
+
 <li><Link to='/o-nas'>O nas</Link></li>
 <li><Link to='/uslugi'>Usługi</Link></li>
 <li><Link to='/portfolio'>Portfolio</Link></li>
@@ -48,7 +50,7 @@ Kapitał zakładowy: 285 000 zł<br/>
 </div>
 <div className='SecondLineFooter'>
 <Link to='/polityka-prywatnosci'>polityka prywatności</Link>
-< a href="" >Projekt i realizacja</a>
+< a href="https://pw-websites.pl" >Projekt i realizacja</a>
 Wszystkie prawa zastrzezone 
 </div>
 

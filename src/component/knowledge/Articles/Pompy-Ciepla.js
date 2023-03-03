@@ -1,29 +1,34 @@
 import './Pompy-Ciepla.css';
-import React from 'react';
+import React,{useEffect} from 'react';
 import Navi from '../../Navi';
 import GetPrice from '../../../main/GetPrice';
-import './Fotowoltaika.css';
+import './Pompy-Ciepla.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import WhyWe from '../../../main/WhyWe';
 import { faLightbulb, faBolt, faPiggyBank, faMoneyBillTrendUp,faFaceSmile } from '@fortawesome/free-solid-svg-icons';
 import corab from '../../../images/knowledge/corabp.png';
 import Steps from '../../../main/Steps';
 const PompyCiepla = () => {
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    
+    
+    },[])
     return (  
         <div className='Fotowoltaika'>
                 <div className='naviHori'>
             <Navi/>
 <div className='imagesContainer'>
-    <div className='oneImage' id="pvzdj1"></div>
-    <div className='oneImage' id="pvzdj2"></div>
+    <div className='oneImage' id="pc1"></div>
+    <div className='oneImage' id="pc2"></div>
 
 </div>
 <div className='textContainer'>
     <h2> Pompy ciepła? ComEko!</h2>
 </div>
 <div className='imagesContainer'>
-    <div className='oneImage' id="pvzdj3"></div>
-    <div className='oneImage' id="pvzdj4"></div>
+    <div className='oneImage' id="pc3"></div>
+    <div className='oneImage' id="pc4"></div>
 
 </div>
 
@@ -138,10 +143,10 @@ const PompyCiepla = () => {
     <h3> Gwarancja Comeko</h3>
     <p>Decydując się na współpracę z Comeko otrzymujesz od nas 5 letnią rękojmie na nasze usługi. W razie awarii instalacji nasz serwis jest gotowy w szybkim czasie przyjechać i naprawić userkę. </p>
 <h4> Cechy gwarancji Comeko</h4>
-<div className='GwBut'>Profesjonalny seriws</div>
+<div className='GwBut'>Profesjonalny serwis</div>
 <div className='GwBut'>Szybki czas reakcji</div>
-<div className='GwBut'>Brak wymaganych przeglądów</div>
-<div className='GwBut'>5 letni spokój</div>
+<div className='GwBut'>Wymiana uszkodzonych elementów</div>
+<div className='GwBut'>Ochrona przed kosztami napraw</div>
 
 
 

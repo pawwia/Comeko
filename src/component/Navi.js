@@ -14,6 +14,7 @@ const Navi = () => {
         <div className='Nav'>
 <Link className="img" to="/" ><img src={logo} alt="logo"/></Link>
 <div className='navBut'>
+<Link to='/'>Start</Link>
 
 <Link to='/o-nas'>O nas</Link>
 

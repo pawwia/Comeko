@@ -9,10 +9,12 @@ import zachpom from '../../images/Main/zachpom.png';
 import GetPrice from '../../main/GetPrice';
 import { Link } from 'react-router-dom';
 
-const Services = () => {
+const Services = (props) => {
     useEffect(()=>{
 
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
+        document.title=props.title
+
     
     },[])
     return ( 

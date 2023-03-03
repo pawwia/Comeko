@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './Main.css';
 import Header from './Header';
 import InNumbers from './InNumbers';
@@ -9,6 +9,12 @@ import WhatWeDo from './WhatWeDo';
 import WhyWe from './WhyWe';
 
 const Main = () => {
+                
+useEffect(()=>{
+    window.scrollTo(0, 0)
+
+
+},[])
     return ( 
         <div className="main">
 <Header/>

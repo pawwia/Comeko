@@ -15,7 +15,7 @@ const WhyWe = () => {
         <div className='WhyWe'>
 <div className='photoWhyWe' data-aos="fade-right"></div>
 <div className='descWhyWe' data-aos="fade-left">  <h1>Dlaczego my?</h1> 
-<p>Szukając wykonawcy instalacji fotowoltaicznej, trudno jest jednoznacznie odpowiedzieć na pytanie który będzie najlepszy. W Comeko kazdego dnia dokładamy starań aby przeprowadzać naszych klientów przez proces zarówno wyboru jak i montazu instalacji na jak najwyzszym poziomie. Ponizej przedstawiamy kilka spośród najwazniejszych elementów które nalezy brać pod uwagę w procesie decyzyjnym: </p>
+<p>Szukając doświadczonego wykonawcy instalacji fotowoltaicznych i pomp ciepła, warto zwrócić uwagę na kilka istotnych kwestii. W Comeko oferujemy kompleksową obsługę naszych klientów, pomagając im w wyborze najlepszych rozwiązań dla ich biznesu. Oto kilka elementów, na które warto zwrócić uwagę w procesie decyzyjnym: </p>
 <div className='arguments'>
 <div className='element'>
 <div className='icon'><FontAwesomeIcon icon={faMapLocation} size="4x" inverse /></div>

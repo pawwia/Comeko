@@ -3,16 +3,16 @@
 width:100%;
 }
 #pvzdj1{
-    background-image: url('../../../images//Portfolio/0\ \(1\).webp');
+    background-image: url('../../../images//Portfolio/036.webp');
     }
     #pvzdj2{
-        background-image: url('../../../images//Portfolio/0\ \(2\).webp');
+        background-image: url('../../../images//Portfolio/002.webp');
         }
     #pvzdj3{
-            background-image: url('../../../images//Portfolio/0\ \(3\).webp');
+            background-image: url('../../../images//Portfolio/003.webp');
             }
     #pvzdj4{
-                background-image: url('../../../images//Portfolio/0\ \(4\).webp');
+                background-image: url('../../../images//Portfolio/004.webp');
                 }
 
 
@@ -58,7 +58,6 @@ transition:0.3s
 }
 .naviHori .imagesContainer .oneImage:hover
 {
-scale: 1.5;
 transition-delay:1s;
 
 }
@@ -153,7 +152,7 @@ border:rgb
     min-height: 550px;
     height:100%;
     border-radius: 10px;
-    background-image:url('../../../images/Portfolio/0\ \(98\).webp');
+    background-image:url('../../../images/Portfolio/098.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

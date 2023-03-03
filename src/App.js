@@ -1,6 +1,7 @@
 import './App.css';
 import Main from './main/Main';
 import {Route, Routes,BrowserRouter} from 'react-router-dom';
+import Privacy from './component/Privacy';
 import Footer from './component/Footer';
 import Contact from './Contact/Contact';
 import Portfolio from './component/Porfolio/Portfolio';
@@ -20,6 +21,7 @@ import PompaJakDziala from './component/knowledge/Articles/PompaJakDziala';
 import PvPodzespoly from './component/knowledge/Articles/PvPodzespoly';
 import Ladowarki from './component/knowledge/Articles/Ladowarki';
 import BezMontazu from './component/knowledge/Articles/BezMontazu';
+import FotowoltaikaDlaFirm from './component/knowledge/Articles/FotowoltaikaDlaFirm';
 function App() {
   
   return (
@@ -45,6 +47,9 @@ function App() {
 <Route path='/wiedza/pv-jakie-podzespoly-wybrac' element={<PvPodzespoly title="Instalacje Fotowoltaiczne - Jakie podzespoły wybrać? - Artykuł - Comeko.pl" />} />
 <Route path='/wiedza/ladowarki-samochodowe' element={<Ladowarki title="" />} />
 <Route path='/wiedza/zestawy-bez-montazu' element={<BezMontazu title="" />} />
+<Route path='/wiedza/fotowoltaika-dla-firm' element={<FotowoltaikaDlaFirm title="" />} />
+<Route path='/polityka-prywatnosci' element={<Privacy title="Polityka prywatności Comeko" />} />
+
 
 
 
